@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Electricity Monitor",
+    "slug": "electricity-monitor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "electricitymonitor",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/images/icon.png",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/2bd3bd8d-4df1-4df7-8184-6a558fda5bea",
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0F1E"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/images/icon.png"
+    },
+    "android": {
+      "package": "com.hassan_212.electricitymonitor",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#0A0F1E"
+      }
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-notifications"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2bd3bd8d-4df1-4df7-8184-6a558fda5bea"
+      }
+    }
+  }
+}
